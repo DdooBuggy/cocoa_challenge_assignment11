@@ -1,2 +1,39 @@
 @import "reset.css";
 @import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
+@import "firstScreen.css";
+@import "secondScreen.css";
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+}
+/*                                            header */
+header {
+  position: relative;
+  margin: 40px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+/*                                            main */
+main {
+  width: 100%;
+}
+.first-screen,
+.second-screen {
+  width: 350px;
+
+  border-radius: 50px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.first-screen {
+  margin-right: 20px;
+  height: 920px;
+}
+
+.second-screen {
+  height: 750px;
+}
